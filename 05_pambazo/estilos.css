@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: yellow;
+    background: linear-gradient(90deg, rgb(14, 54, 235)) 0%, rgb(10, 255, 43) 100%;
+    font-family: 'Bungee Spice', cursive ;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.card{
+    width: 400px;
+    height: 500px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(20, 241, 186);
+    margin: 50px auto;
+    position: relative;
+    top: 100px;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    border-radius: 30px 30px 0 0;
+       background-color: #8ecbf3;
+       border-bottom: 4px solid black;
+       background-color: #020005;
+       background-color: #ff0000;
+background-image: url("pambazo.jpg");
+}
+
+img{
+    display: block;
+    width: 250px;
+    height: 150px;
+    background: 
+    linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
+    linear-gradient(to right, darkblue, rgb(35, 228, 212)) border-box;
+ 
+  border: 4px solid transparent;
+  margin: auto;
+    position: relative;
+    top:-40px;
+}
+.body{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    background-image: url("");
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    position: absolute;
+    padding-top: 10px;
+    bottom: 0;
+    border-top: 5px solid lightgray;
+}
+.dato{
+    display: inline-block;
+    padding: -30px;
+    text-align: center;
+}
+.claro{
+    color: rgb(25, 0, 255);
+    opacity: 1.6;
+}
+.texto{
+    font-size: 2px; 
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    color: rgb(217, 255, 0);
+}
+.alberto {
+    background-color: #8ecbf3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
