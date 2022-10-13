@@ -3,48 +3,81 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-   
-}
-
-.divFrase{
-    display: block;
-    width: 500px;
-    height: auto;
-    padding: 30px;
-    background: black;
-    color: white;
-    border: white;
-    border-radius: 20px;
-    opacity: 0.5;
+    background: rgb(186,159,181);
+background: linear-gradient(90deg, rgba(186,159,181,1) 13%, rgba(189,144,169,1) 70%);
+    
+    font-family: 'Noto Sans Mono', monospace;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
-
-}
-
-h1,p{
-
-    font-size: 40px;
     font-weight: bold;
-    opacity: 1;
-
-}
-.boton{
-
-    display: block;
-    margin: 20px auto;
-    padding: 20px;
-    font-size: 20px;
-    background: green;
     color: white;
-    border-radius: 10px;
-    text-shadow: 0 0 5px black;
+    padding: 15px;
+    animation-name:ween;
+    animation-duration: 30s;
+    animation-delay: 1s;
+   animation-iteration-count:infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+@keyframes ween{
+    0%{
+       background:url( https://images2.alphacoders.com/564/564835.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       margin: 0;
+       height: 100vh;
+    }
+    20%{
+        background:url( https://wallpapercave.com/uwp/uwp266959.jpeg );
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+     }
+     40%{
+        background:url( https://fondosmil.com/fondo/4602.jpg );
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+     }
+     60%{
+         background:url( http://pm1.narvii.com/8098/61e05efccf10266ce66c1319720f75a9c2b910f5r1-720-900v2_uhq.jpg );
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin: 0;
+         height: 100vh;
+      }
+      80%{
+        background:url( https://www.teahub.io/photos/full/180-1808816_dragon-ball-fondos-de-pantalla-hd.jpg );
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+     }
+     100%{
+         background:url( http://www.solofondos.com/wp-content/uploads/2016/02/goku-y-gohan-dragon-ball-z-2574.jpg );
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin: 0;
+         height: 100vh;
+      }
+}
+div{
+    background: black;
+height: auto;
+width: auto;
+opacity: 80%;
+border-radius: 5px;
+padding: 20px;
+}
+input{
+    background: green;
+    padding: 10px;
+    border-radius: 5px;
 }
